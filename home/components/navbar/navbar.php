@@ -1,6 +1,6 @@
 <section class="navbar">
     <div class="wrapper">
-        <div href="#" class="logo">PCShop</div>
+        <div class="logo">PCShop</div>
         <div class="link-container">
             <a href="#" class="link">Home</a>
             <a href="#" class="link">Shop</a>
