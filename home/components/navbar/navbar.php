@@ -1,5 +1,5 @@
 <section class="navbar">
-    <div class="nav-bar_wrapper">
+    <div class="navbar-wrapper">
         <div class="logo">PCShop</div>
         <div class="link-container">
             <a href="#" class="link">Home</a>
