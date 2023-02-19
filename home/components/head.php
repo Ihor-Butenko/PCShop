@@ -7,6 +7,7 @@
 
     <!-- CSS AND STYLE LINKS HERE -->
 
+    <link rel="stylesheet" href="components/navbar/css/navbar.css">
 
 
     <title>PCShop | Home</title>

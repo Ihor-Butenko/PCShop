@@ -12,8 +12,16 @@
 
             case "productsCatalog":
                 include "catalog.php";
-                break;      
+                break;
 
+            case "activeOrders":
+                include "activeOrders.php";
+                break;
+
+            
+                
+            default:
+                include "index.php";
         }
 
     }
