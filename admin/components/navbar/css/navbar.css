@@ -31,7 +31,13 @@ body{
 .welcome{
     color: #fff;
     font-size: 1.2rem;
-    margin-top: 0.7rem;
+}
+
+.link-container{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .link-container{
