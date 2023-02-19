@@ -1,5 +1,5 @@
 <section class="slider">
-    <div class="wrapper">
-        
+    <div class="slider_wrapper">
+
     </div>
 </section>
