@@ -6,12 +6,30 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .wrapper{
     height: 4rem;
     width: 100%;
     background-color: black;
-    color: white;
     display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.link-container{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.link{
+    color: white;
+    font-size: 1.2rem;
 }
