@@ -24,9 +24,7 @@
                 <h1><?php echo $productName;?></h1>
                 <div class="price-container">
                     <p><?php echo $productPrice;?></p>
-                    <div class="price-button">
-                        <a>Change Price</a>
-                    </div>
+                    <button class="price-button">Change price</button>
                 </div>
             </div>
 

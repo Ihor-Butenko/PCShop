@@ -1,50 +1,51 @@
-.product-container{
-    display: grid;
+.product-container {
+	display: grid;
 }
 
-.product-item{
-    width: 25rem;
-    height: 35rem;
-    background-color: #000;
-    color: #fff;
-    column-gap: 2rem;
-    border-radius: 1rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+.product-item {
+	width: 25rem;
+	height: 35rem;
+	background-color: #000;
+	color: #fff;
+	column-gap: 2rem;
+	border-radius: 1rem;
+	margin-left: 2rem;
+	margin-top: 2rem;
 }
 
-.product-item img{
-    width: 100%;
-    height: 25rem;
+.product-item img {
+	width: 100%;
+	height: 25rem;
 }
 
-.product-item h1{
-    margin-top: 0.5rem;
-    font-size: 2rem;
-    margin-left: 1rem;
+.product-item h1 {
+	margin-top: 0.5rem;
+	font-size: 2rem;
+	margin-left: 1rem;
 }
 
-.product-item p{
-    font-size: 1.3rem;
-    margin-top: 0.5rem;
-    margin-left: 1rem;
+.product-item p {
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	margin-left: 1rem;
 }
 
-.price-container{
-    display: flex;
-    justify-content: space-between;
+.price-container {
+	display: flex;
+	justify-content: space-between;
 }
 
-.price-button{
-    font-size: 0.9rem; 
-    margin-right: 13.3rem;  
-    width: 6rem;
-    height: 2rem;
-    background-color: #2453d4;
-    text-align: center;
-    padding-top: 0.4rem;
-    border-radius: 1rem;
-    cursor: pointer;
-    margin-top: 0.3rem;
-}
+.price-button {
+	font-size: 0.9rem;
+	margin-right: 13.3rem;
+	width: 6rem;
+	height: 2rem;
+	background-color: #2453d4;
+	text-align: center;
+	padding-top: 0.4rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	margin-top: 0.3rem;
 
+	transition: background-color 0.5s ease;
+}
