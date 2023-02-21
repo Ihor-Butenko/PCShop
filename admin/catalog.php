@@ -24,7 +24,8 @@
                 <h1><?php echo $productName;?></h1>
                 <div class="price-container">
                     <p><?php echo $productPrice;?></p>
-                    <button class="price-button">Change price</button>
+                    <button id="myButton">Наведите курсор на меня</button>
+
                 </div>
             </div>
 
