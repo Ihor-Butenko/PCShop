@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Фев 19 2023 г., 19:13
+-- Время создания: Фев 21 2023 г., 21:26
 -- Версия сервера: 10.4.24-MariaDB
 -- Версия PHP: 8.1.6
 
@@ -35,6 +35,13 @@ CREATE TABLE `products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
+-- Дамп данных таблицы `products`
+--
+
+INSERT INTO `products` (`product_id`, `product_name`, `product_price`, `product_image`) VALUES
+(1, 'AVANT MINT SIZE', '1500$', 'https://avadirect.azureedge.net/Pictures/Big/13515225_13.png');
+
+--
 -- Индексы сохранённых таблиц
 --
 
@@ -52,7 +59,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT для таблицы `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(80) NOT NULL AUTO_INCREMENT;
+  MODIFY `product_id` int(80) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

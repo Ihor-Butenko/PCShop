@@ -21,7 +21,7 @@
             
                 
             default:
-                include "index.php";
+                include "statistic.php";
         }
 
     }

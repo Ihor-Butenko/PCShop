@@ -1,12 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
-</head>
-<body>
+<?php include "../db/db.php";?>
+
+<section class="catalog">
+    <div class="wrapper">
+        <div class="product-container">
+            
+
+            <?php
+            
+                $productsSQL = "SELECT * FROM products";
+                $query = $connect -> query($productsSQL);
+
+                while($row = $query -> fetch_assoc()){
+
+                    $productName = $row['product_name'];
+                    $productPrice = $row['product_price'];
+                    $productImage = $row['product_image'];
+
     
-</body>
-</html>
+            ?>
+
+            <div class="product-item">
+                <img src="<?php echo $productImage;?>">
+                <h1><?php echo $productName;?></h1>
+                <div class="price-container">
+                    <p><?php echo $productPrice;?></p>
+                    <div class="price-button">
+                        <a>Change Price</a>
+                    </div>
+                </div>
+            </div>
+
+            <?php }?>
+
+
+
+
+
+        </div>
+    </div>
+</section>

@@ -3,8 +3,8 @@
     $dbAdress = "localhost";
     $dbUsername = "admin";
     $dbPassword = "admin";
-    $dbName = "PCShop";
+    $dbName = "pcshop";
 
-    $connect = new mysql($dbAdress, $dbUsername, $dbPassword, $dbName);
+    $connect = new mysqli($dbAdress, $dbUsername, $dbPassword, $dbName);
 
 ?>
