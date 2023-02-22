@@ -14,6 +14,10 @@
                 include "catalog.php";
                 break;
 
+            case "addPc":
+                include "addPc.php";
+                break;
+
             case "activeOrders":
                 include "activeOrders.php";
                 break;
@@ -21,7 +25,7 @@
             
                 
             default:
-                include "statistic.php";
+                include "catalog.php";
         }
 
     }
