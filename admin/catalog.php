@@ -1,6 +1,6 @@
 <?php include "../db/db.php";?>
 
-<section class="catalog">
+<div class="catalog">
     <div class="wrapper">
         <div class="product-container">
             
@@ -38,4 +38,4 @@
 
         </div>
     </div>
-</section>
+</div>
