@@ -1,5 +1,6 @@
 .product-container{
     display: grid;
+    grid-template-columns: 30rem 30rem 30rem;
 }
 
 .product-item{
@@ -9,8 +10,8 @@
     color: #fff;
     column-gap: 2rem;
     border-radius: 1rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 
 .product-item img{

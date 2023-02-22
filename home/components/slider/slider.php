@@ -10,7 +10,7 @@
         </div>
     </div>
         <div class="slider_right_container">
-            <img src="./images/graphics_card.png" alt="">
+            <img src="../images/graphics_card.png" alt="wdas">
         </div>
     </div>
 </section>
