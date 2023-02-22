@@ -2,7 +2,12 @@
 
 <div class="popup" id="mypopup">
     <div class="wrapper">
-            <span class='close'>&times;</span>
+            <div class="addPc_top_container">
+                <div class="addPc_top_text_container">
+                    ADD PC
+                </div>
+            </div>
+            
         </div>
     </div>
 </div>
