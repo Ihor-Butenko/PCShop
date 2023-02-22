@@ -11,7 +11,7 @@
     
 
         <div class="slider_right_container">
-            <img src="/slider/images/graphics_card.png" alt="qwdawd">
+            <img src="./images/graphics_card.png" alt="">
         </div>
     </div>
 </section>
