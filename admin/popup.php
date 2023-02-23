@@ -28,6 +28,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Popupcss/popup.css">
 </head>
 <body>
     <div class="popup" id="mypopup">
@@ -42,12 +43,12 @@
                         <button class="button" id="save" name="submit">Save</button>
                     </div>
                 </div>
-                <div class="addPc_main_input_container">
-                    <div class="input-item">
+                <div class="addPc_main_input_container" >
+                    <div class="input-item" id="popup_main_containers">
                         <label for="#product-name">Pc Name</label>
                         <input id="product-name" type="text" name="product-name">
                     </div>
-                    <div class="input-item">
+                    <div class="input-item" id="popup_main_containers">
                         <label for="#product-price">Price</label>
                         <input id="product-price" type="varchar" name="product-price">
                     </div>
