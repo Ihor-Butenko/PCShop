@@ -2,6 +2,8 @@
     
 <?php include "./components/navbar/navbar.php";?>
 
+<?php include "../db/db.php";?>
+
 <?php
 
     if(isset($_GET['source'])){

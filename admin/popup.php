@@ -1,3 +1,7 @@
+<?php ob_start();?>
+
+<?php include "../db/db.php";?>
+
 <?php
 
     if(isset($_POST['submit'])){
@@ -8,7 +12,10 @@
         $productImg = $_FILES['image']['name'];
         $productImgTemp = $_FILES['image']['tmp_name'];
 
-        move_uploaded_file($userImageTemp, "../image/$productImgTemp");   
+        move_uploaded_file($productImgTemp, "../image/$productImg");  
+        
+        $insertProductSQL = "INSERT INTO products(product_name, product_price, product_image) VALUES (\"$productName\", \"$productPrice\", \"$productImg\")";
+        $insertProductQuery = $connect -> query($insertProductSQL);
 
     }
 
@@ -25,7 +32,7 @@
 <body>
     <div class="popup" id="mypopup">
         <div class="wrapper">
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <div class="addPc_top_container">
                     <div class="addPc_top_text_container">
                         New Pc   
@@ -45,7 +52,7 @@
                         <input id="product-price" type="varchar" name="product-price">
                     </div>
                     <div class="input-item">
-                        <label for="#product-image">Iamge</label>
+                        <label for="#product-image">Imge</label>
                         <input id="product-price" type="file" name="image">
                     </div>
                 </div>

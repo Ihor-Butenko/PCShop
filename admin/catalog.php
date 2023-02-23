@@ -20,7 +20,7 @@
             ?>
 
             <div class="product-item">
-                <img src="<?php echo $productImage;?>">
+                <img src="../image/<?php echo $productImage;?>">
                 <h1><?php echo $productName;?></h1>
                 <div class="price-container">
                     <p><?php echo $productPrice;?></p>
