@@ -1,3 +1,19 @@
+<?php
+
+    if(isset($_POST['submit'])){
+
+        $productName = $_POST['product-name'];
+        $productPrice = $_POST['product-price'];
+
+        $productImg = $_FILES['image']['name'];
+        $productImgTemp = $_FILES['image']['tmp_name'];
+
+        move_uploaded_file($userImageTemp, "../image/$productImgTemp");   
+
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,8 +45,8 @@
                         <input id="product-price" type="varchar" name="product-price">
                     </div>
                     <div class="input-item">
-                        <p>Product Price</p>
-                        <input id="product-price" type="varchar" name="product-price">
+                        <label for="#product-image">Iamge</label>
+                        <input id="product-price" type="file" name="image">
                     </div>
                 </div>
             </form>    
