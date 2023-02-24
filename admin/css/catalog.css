@@ -4,8 +4,9 @@
 }
 
 .product-item {
+	padding-top: 1rem;
 	width: 25rem;
-	height: 35rem;
+	height: 39rem;
 	background-color: #000;
 	color: #fff;
 	column-gap: 2rem;
@@ -39,7 +40,7 @@
 
 .price-button {
 	font-size: 0.9rem;
-	margin-right: 13.3rem;
+	margin-right: 11rem;
 	width: 6rem;
 	height: 2rem;
 	background-color: #2453d4;
@@ -48,6 +49,71 @@
 	border-radius: 1rem;
 	cursor: pointer;
 	margin-top: 0.3rem;
+	user-select: none;
 }
 
+.button-container{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 0.8rem;
+}
+
+.button-container #left{
+	width: 6rem;
+	height: 2rem;
+	background-color: #2453d4;
+	text-align: center;
+	padding-top: 0.4rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	font-size: 0.9rem;
+	margin-right: 1rem;	
+	margin-left: 1rem;
+}
+
+.button-container #right{
+	width: 6rem;
+	height: 2rem;
+	background-color: #2453d4;
+	text-align: center;
+	padding-top: 0.4rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	font-size: 0.9rem;		
+}
+
+.input-container{
+	display: none;
+}
+
+.input-container{
+	padding-left: 5rem;
+	padding-top: 1rem;
+}
+
+.input-container input{
+	height: 2rem;
+	width: 11rem;
+	background-color: #1c1c1d;
+	border: none;
+	user-select: none;
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	font-size: 1.2rem;
+	padding-left: 0.5rem;
+	color: #fff;
+}
+
+.input-container button{
+	height: 2rem;
+	width: 4.5rem;
+	background-color: #2453d4;
+	border: none;
+	user-select: none;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	font-size: 1rem;
+	color: #fff;
+	cursor: pointer;
+}
 
