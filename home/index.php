@@ -7,6 +7,9 @@
 <!-- SLIDER -->
 <?php include "./components/slider/slider.php";?>
 
+<!-- PARTNERS -->
+<?php include "./components/partners/partners.php";?>
+
 <!-- FOOTER -->
 <?php include "./components/footer/footer.php";?>
 
