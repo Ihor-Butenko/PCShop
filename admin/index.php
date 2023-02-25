@@ -24,7 +24,17 @@
                 include "activeOrders.php";
                 break;
 
+            case "editProduct":
+                include "editProduct.php";
+                break; 
             
+            case "deleteProduct":
+                include "deleteProduct.php";
+                break;
+
+            case "addProduct":
+                include "addProduct.php";
+                break;
                 
             default:
                 include "catalog.php";
