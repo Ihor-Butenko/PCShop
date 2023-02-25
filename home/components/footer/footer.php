@@ -20,7 +20,7 @@
 			<ul>Privacy Policy
 				<li><a href="">Returns & Exchanges</a></li>
 				<li><a href="">Payment Terms</a></li>
-				<li><a >Delivery Terms</a></li>
+				<li><a href="">Delivery Terms</a></li>
 				<li><a href="">Payment & Pricing</a></li>
 				<li><a href="">Terms Of Use</a></li>
 				<li><a href="">Privacy Policy</a></li>
@@ -70,7 +70,7 @@
 
 		<h2>
 			<i class="fa-solid fa-headset"></i>
-			<a href="">(number)</a>
+			<a href="">8800-555-3535</a>
 		</h2>
 
 		<h2>
