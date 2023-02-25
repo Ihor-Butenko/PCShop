@@ -7,6 +7,9 @@
 <!-- SLIDER -->
 <?php include "./components/slider/slider.php";?>
 
+<!-- TOP_RATED -->
+<?php include "./components/top_rated/top_rated.php";?>
+
 <!-- PARTNERS -->
 <?php include "./components/partners/partners.php";?>
 
