@@ -8,4 +8,7 @@
 <?php include "./components/slider/slider.php";?>
 
 <!-- FOOTER -->
+<?php include "./components/footer/footer.php";?>
+
+<!-- FOOTER -->
 <?php include "./components/footer.php";?>
