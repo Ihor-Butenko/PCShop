@@ -8,6 +8,7 @@
 
 		<div class="top_footer_icon_container">
 			<i class="fa-brands fa-spotify"></i>
+			
 		</div>
 
 	</div class="lists_footer_container">
