@@ -155,5 +155,9 @@ a{
 	cursor: pointer;
 	border: none;	
 	margin-top: 2rem;
-	margin-left: 10rem;
+	margin-left: 9.5rem;
+}
+
+#add{
+	padding-top: 5rem;
 }

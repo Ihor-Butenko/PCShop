@@ -31,6 +31,10 @@
             case "deleteProduct":
                 include "deleteProduct.php";
                 break;
+
+            case "addProduct":
+                include "addProduct.php";
+                break;
                 
             default:
                 include "catalog.php";
