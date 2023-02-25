@@ -10,6 +10,9 @@
 <!-- TOP_RATED -->
 <?php include "./components/top_rated/top_rated.php";?>
 
+<!-- Featured Products -->
+<?php include "./components/featured_products/featured_products.php";?>
+
 <!-- PARTNERS -->
 <?php include "./components/partners/partners.php";?>
 
