@@ -17,54 +17,79 @@
 			<i class="fa-brands fa-discord"></i>
 
 		</div>
+	</div>
 	<div class="lists_footer_container">
 		<div>
+
 			<ul>Privacy Policy
-				<li><a>Returns & Exchanges</a></li>
-				<li><a>Payment Terms</a></li>
-				<li><a>Delivery Terms</a></li>
-				<li><a>Payment & Pricing</a></li>
-				<li><a>Terms Of Use</a></li>
-				<li><a>Privacy Policy</a></li>
+				<li><a href="">Returns & Exchanges</a></li>
+				<li><a href="">Payment Terms</a></li>
+				<li><a >Delivery Terms</a></li>
+				<li><a href="">Payment & Pricing</a></li>
+				<li><a href="">Terms Of Use</a></li>
+				<li><a href="">Privacy Policy</a></li>
 			</ul>
 
 		</div>
 		<div>
 
 			<ul>Get Involved
-				<li><a>About Us</a></li>
-				<li><a>Our Vision</a></li>
-				<li><a>Orders & Shipping</a></li>
-				<li><a>Office Supplies</a></li>
-				<li><a>Contact Us</a></li>
-				<li><a>Customer Service</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Our Vision</a></li>
+				<li><a href="">Orders & Shipping</a></li>
+				<li><a href="">Office Supplies</a></li>
+				<li><a href="">Contact Us</a></li>
+				<li><a href="">Customer Service</a></li>
 			</ul>
 
 		</div>
 		<div>
 
 			<ul>Quick Links
-				<li><a>Smartphones</a></li>
-				<li><a>Headphones</a></li>
-				<li><a>Laptop & Tablet</a></li>
-				<li><a>Monitors</a></li>
-				<li><a>Printers</a></li>
-				<li><a>Gadgets</a></li>
+				<li><a href="">Smartphones</a></li>
+				<li><a href="">Headphones</a></li>
+				<li><a href="">Laptop & Tablet</a></li>
+				<li><a href="">Monitors</a></li>
+				<li><a href="">Printers</a></li>
+				<li><a href="">Gadgets</a></li>
 			</ul>
 
 		</div>
 		<div>
+
 			<ul>Customer Care
-				<li><a>My Account</a></li>
-				<li><a>Store Locator</a></li>
-				<li><a>Customer Service</a></li>
-				<li><a>Returns/Exchange</a></li>
-				<li><a>Product Support</a></li>
-				<li><a>FAQs</a></li>
+				<li><a href="">My Account</a></li>
+				<li><a href="">Store Locator</a></li>
+				<li><a href="">Customer Service</a></li>
+				<li><a href="">Returns/Exchange</a></li>
+				<li><a href="">Product Support</a></li>
+				<li><a href="">FAQs</a></li>
 			</ul>
+
 		</div>
 	</div>
+	<div class="third_container">
 
+		<h2>
+			<a href="">PCShop</a>
+		</h2>
+
+		<h2>
+			<i class="fa-solid fa-headset"></i>
+			<a href="">(number)</a>
+		</h2>
+
+		<h2>
+			<i class="fa-solid fa-truck"></i>
+			<a href="">Amounts over $100</a>
+		</h2>
+
+		<h2>
+			<i class="fa-solid fa-tag"></i>
+			<a href="">Save up to 20%</a>
+		</h2>
+
+	</div>
 
 	<div>
 
