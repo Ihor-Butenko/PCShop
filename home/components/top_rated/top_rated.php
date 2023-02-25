@@ -20,17 +20,17 @@
 			</div>
 			<div>
 
-			<img src="../image/mouse.png" alt="" height="200rem">
+				<img src="../image/mouse.png" alt="" height="200rem">
 
 			</div>
 			<div>
 
-			
+				<h4><e>Wireless PC Mouse XF-550 in Carbon Black/Grey/Green</e></h4>
 
 			</div>
 			<div>
 
-
+				<h3>$278</h3>
 
 			</div>
 		</div>
@@ -53,12 +53,12 @@
 			</div>
 			<div>
 
-
+				<h4><e>Fractal Design 850-PW Tempered Glass Computer Case</h4></e>
 
 			</div>
 			<div>
 
-
+				<h3>$654</h3>
 
 			</div>
 		</div>
@@ -81,12 +81,12 @@
 			</div>
 			<div>
 
-
+				<h4><e>MBD214 147GB 10000 RPM 16MB Cache SAS 6Gb/s 2.5″ Hard Drive</h4></e>
 
 			</div>
 			<div>
 
-
+				<h3>$357</h3>
 
 			</div>
 		</div>
@@ -109,12 +109,12 @@
 			</div>
 			<div>
 
-
+				<h4><e>FTW-3553 8GB 2666MHz DDR4 DIMM Desktop Memory</h4></e>
 
 			</div>
 			<div>
 
-
+				<h3>$736</h3>
 
 			</div>
 		</div>
@@ -137,12 +137,12 @@
 			</div>
 			<div>
 
-
+				<h4><e>High Definition Monitor Red/Black Expo SDS-855697</h4></e>
 
 			</div>
 			<div>
 
-
+				<h3>$356</h3>
 
 			</div>
 		</div>
