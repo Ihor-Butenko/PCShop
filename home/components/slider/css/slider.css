@@ -1,7 +1,8 @@
 .slider_wrapper{
     background-image: url(https://gizmos.qodeinteractive.com/wp-content/uploads/2022/10/home-11-rev-bg-img.jpg);
-    height: 40rem;
-    background-size: 100rem;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
