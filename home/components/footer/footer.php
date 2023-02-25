@@ -1,26 +1,22 @@
 <div>
 
 	<div class="top_footer_container">
-
-		<h3>Sign up to Newsletter</h3>
-
-		<input type="text" placeholder="Your Email Address">
-
+		<div class="logo_footer_container"><h3>Sign up to Newsletter</h3></div>
+		<div class="email_footer_container"><input type="text" placeholder="Your Email Address"></div>
 		<div class="top_footer_icon_container">
-
-			<i class="fa-brands fa-spotify"></i>
-			<i class="fa-brands fa-youtube"></i>
-			<i class="fa-brands fa-tiktok"></i>
-			<i class="fa-brands fa-twitter"></i>
-			<i class="fa-brands fa-instagram"></i>
-			<i class="fa-brands fa-facebook"></i>
-			<i class="fa-brands fa-discord"></i>
+			<h4>Follow us on:</h4>
+			<i id="footer_icons" class="fa-brands fa-spotify"></i>
+			<i id="footer_icons" class="fa-brands fa-youtube"></i>
+			<i id="footer_icons" class="fa-brands fa-tiktok"></i>
+			<i id="footer_icons" class="fa-brands fa-twitter"></i>
+			<i id="footer_icons" class="fa-brands fa-instagram"></i>
+			<i id="footer_icons" class="fa-brands fa-facebook"></i>
+			<i id="footer_icons" class="fa-brands fa-discord"></i>
 
 		</div>
 	</div>
 	<div class="lists_footer_container">
-		<div>
-
+		<div class="privacy-policy_container">
 			<ul>Privacy Policy
 				<li><a href="">Returns & Exchanges</a></li>
 				<li><a href="">Payment Terms</a></li>
@@ -31,8 +27,7 @@
 			</ul>
 
 		</div>
-		<div>
-
+		<div class="get-involved_container">
 			<ul>Get Involved
 				<li><a href="">About Us</a></li>
 				<li><a href="">Our Vision</a></li>
@@ -43,7 +38,7 @@
 			</ul>
 
 		</div>
-		<div>
+		<div class="quick-links_container">
 
 			<ul>Quick Links
 				<li><a href="">Smartphones</a></li>
@@ -55,8 +50,7 @@
 			</ul>
 
 		</div>
-		<div>
-
+		<div class="customer-care_container">
 			<ul>Customer Care
 				<li><a href="">My Account</a></li>
 				<li><a href="">Store Locator</a></li>
