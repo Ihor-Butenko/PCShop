@@ -1,0 +1,28 @@
+body{
+    background-color:#151517;
+}
+
+.top_footer_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_footer_icon_container{
+    margin-right: 22rem;
+}
+
+.email_footer_container input{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+.logo_footer_container{
+    margin-left: 22rem;
+}
+
+#footer_icons{
+    margin-left: 0.2rem;
+}
+
+h3{color: white;}h4{color: white;}
