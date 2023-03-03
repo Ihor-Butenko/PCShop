@@ -1,9 +1,9 @@
 <?php
 
-    $dbAdress = "sql7.freesqldatabase.com";
-    $dbUsername = "sql7600469";
-    $dbPassword = "LxrbvwFhNL";
-    $dbName = "sql7600469";
+    $dbAdress = "sql7.freemysqlhosting.net";
+    $dbUsername = "sql7602695";
+    $dbPassword = "ml9UzWrc1G";
+    $dbName = "sql7602695";
 
     // Create connection
     $connect = new mysqli($dbAdress, $dbUsername, $dbPassword, $dbName);
