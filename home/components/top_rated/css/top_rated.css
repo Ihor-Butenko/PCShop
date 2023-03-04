@@ -1,3 +1,74 @@
-.huinia{
-    color: #000;
+*{
+    transition: .1s linear;
+}
+
+.top-rated-wrapper{
+    background-color: #000; 
+}
+
+.top_rated_products_header{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.top_rated_products_header h1{
+    color: #fff;
+}
+
+.products-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 9rem;
+    color: #fff;
+}
+
+.item-product{
+    width: 22rem;
+    height: 30rem;
+    border: 1px solid #505050;
+    border-radius: 0.5rem;
+}
+
+.item-product .icon-container{
+    margin-left: 20rem;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-icon{
+    margin-top: 0.2rem;
+}
+
+.arrow-icon,
+.heart-icon{
+    cursor: pointer;
+}
+
+.arrow-icon:hover,
+.heart-icon:hover{
+    color: #2453d4;
+}
+
+.item-product img{
+    width: 22rem;
+    height: 20rem;
+}
+
+.pname{
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+}
+
+h4{
+    margin-left: 0.5rem; 
+}
+
+.price{
+    font-size: 1.4rem;
+    margin-top: 0.3rem;
+    font-weight: 100;
 }
