@@ -1,6 +1,10 @@
+*{
+	overflow-x: hidden;
+}
+
 .product-container {
 	display: grid;
-	grid-template-columns: 30rem 30rem 30rem;
+	grid-template-columns: 30rem 30rem 30rem 30rem;
 }
 
 .product-item {
@@ -11,7 +15,7 @@
 	color: #fff;
 	column-gap: 2rem;
 	border-radius: 1rem;
-	margin-left: 5rem;
+	margin-left: 2rem;
 	margin-top: 5rem;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

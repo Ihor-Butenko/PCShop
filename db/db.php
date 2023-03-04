@@ -8,10 +8,10 @@
     // Create connection
     $connect = new mysqli($dbAdress, $dbUsername, $dbPassword, $dbName);
 
-    // Check connection
-    if ($connect->connect_error) {
-      die("Connection failed: " . $connect->connect_error);
-    }
-    echo "Connected successfully";    
+    // // Check connection
+    // if ($connect->connect_error) {
+    //   die("Connection failed: " . $connect->connect_error);
+    // }
+    // echo "Connected successfully";    
 
 ?>

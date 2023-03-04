@@ -4,7 +4,7 @@
 		<div class="logo_footer_container"><h3>Sign up to Newsletter</h3></div>
 		<div class="email_footer_container"><input type="text" placeholder="Your Email Address"></div>
 		<div class="top_footer_icon_container">
-			<h4>Follow us on:</h4>
+			<h4 class="follow">Follow us on:</h4>
 			<i id="footer_icons" class="fa-brands fa-spotify"></i>
 			<i id="footer_icons" class="fa-brands fa-youtube"></i>
 			<i id="footer_icons" class="fa-brands fa-tiktok"></i>
